@@ -1,0 +1,54 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Alura Tracker 2.0"
+    },
+    {
+      "id": 2,
+      "nome": "Vue com axions"
+    },
+    {
+      "nome": "Sap Business One",
+      "id": 3
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração do integrador",
+      "projeto": {
+        "id": 2,
+        "nome": "Vue com axions"
+      }
+    },
+    {
+      "id": 2,
+      "duracaoEmSegundos": 6,
+      "descricao": "Fazendo exercícios de Vue",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      }
+    },
+    {
+      "duracaoEmSegundos": 2,
+      "descricao": "Ajustando o código em módulos",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      },
+      "id": 3
+    },
+    {
+      "duracaoEmSegundos": 9,
+      "descricao": "Criando variáveis reativas",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker 2.0"
+      },
+      "id": 4
+    }
+  ]
+}
